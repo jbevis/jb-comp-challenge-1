@@ -7,17 +7,26 @@ body {
 article {
   height: 150px;
   width: 100%;
+  text-align: center;
+  padding: 15px;
 }
+
 
 .main-image {
   height: 400px;
-  /*width: 100%;*/
+  width: 100%;
+  position: relative;
 }
 
 a {
   border: 1px solid #FFF;
   padding: 10px;
-  margin: 0 25px;
+  margin: 0 20px;
+}
+
+img {
+  width: 100px;
+  margin: 10px 0px;
 }
 
 #resume {
@@ -27,47 +36,52 @@ a {
 
 #info {
   width: 20px;
+  margin: 0 5px;
 }
 
 #profile-pic {
-  width: inherit;
-  height: 400px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
 }
 
 .info {
-  background-color: #E6EBE0;
+  background-color: #35BC7A;
+  height: 200px;
+  text-align: left;
 }
 
 .profile-box {
-  background-color: #9BC1BC;
+  background-color: #FF9E00;
 
 }
 
 .experience-box {
-  background-color: #ED6A5A;
+  background-color: #1E8BC4;
 
 }
 
 .education-box {
-  background-color: #5D576B;
+  background-color: #F15A49;
 
 }
 
 .blog-box{
-  background-color: #E6EBE0;
+  background-color: #35BC7A;
 }
 
 .social-box {
-  background-color: #F4F1BB;
+  background-color: #F86925;
 
 }
 
 .contact-box {
-  background-color: #ED6A5A;
+  background-color: #1E8BC4;
 
 }
 
 .portfolio-box {
-  background-color: #F4F1BB;
+  background-color: #F86925;
 
 }
