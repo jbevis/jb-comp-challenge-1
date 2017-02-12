@@ -1,0 +1,73 @@
+body {
+  font-family: 'raleway', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+article {
+  height: 150px;
+  width: 100%;
+}
+
+.main-image {
+  height: 400px;
+  /*width: 100%;*/
+}
+
+a {
+  border: 1px solid #FFF;
+  padding: 10px;
+  margin: 0 25px;
+}
+
+#resume {
+  width: 20px;
+  margin: 0 5px;
+}
+
+#info {
+  width: 20px;
+}
+
+#profile-pic {
+  width: inherit;
+  height: 400px;
+}
+
+.info {
+  background-color: #E6EBE0;
+}
+
+.profile-box {
+  background-color: #9BC1BC;
+
+}
+
+.experience-box {
+  background-color: #ED6A5A;
+
+}
+
+.education-box {
+  background-color: #5D576B;
+
+}
+
+.blog-box{
+  background-color: #E6EBE0;
+}
+
+.social-box {
+  background-color: #F4F1BB;
+
+}
+
+.contact-box {
+  background-color: #ED6A5A;
+
+}
+
+.portfolio-box {
+  background-color: #F4F1BB;
+
+}
