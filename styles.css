@@ -4,68 +4,55 @@ html {
 }
 
 body {
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
   font-family: 'raleway', sans-serif;
   font-size: 16px;
   height: 100%;
   width: 100%;
-  color: #fff;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.box-container {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.main-image {
-  width: 40%;
-  background-image: url(RMNP-self.jpg);
-  background-repeat: space;
 }
 
 article {
-  height: 33.33%;
-  width: 33.333%;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 33.33%;
   justify-content: center;
-  align-items: center;
+  width: 33.333%;
 }
 
 a {
-  border: 1px solid #FFF;
-  padding: 10px;
+  border: 2px solid #FFF;
   margin: 0px 20px;
+  padding: 10px;
 }
 
 img {
-  width: 100px;
   margin: 10px 0px;
+  width: 100px;
 }
 
 img:hover {
   cursor: pointer;
 }
 
-#resume {
-  width: 20px;
-  margin: 0 15px;
-
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
 }
 
-#info {
-  width: 20px;
-  margin: 0 5px;
-}
-
-#profile-pic {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  margin: 0 0;
+.main-image {
+  align-items: center;
+  background-image: url(RMNP-self.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding: 0px 15px;
+  width: 40%;
 }
 
 .info {
@@ -80,9 +67,9 @@ img:hover {
 
 .info p{
   font-size: 0.8em;
+  line-height: 2em;
   margin-bottom: 30px;
   padding: 0px 15px;
-  line-height: 2em;
 }
 
 .profile-box {
@@ -91,12 +78,10 @@ img:hover {
 
 .experience-box {
   background-color: #1E8BC4;
-
 }
 
 .education-box {
   background-color: #F15A49;
-
 }
 
 .blog-box{
@@ -105,23 +90,46 @@ img:hover {
 
 .social-box {
   background-color: #F86925;
-
 }
 
 .contact-box {
   background-color: #1E8BC4;
-
 }
 
 .portfolio-box {
   background-color: #F86925;
-
 }
 
-@media screen and (max-width: 900px){
+.arrows {
+  width: 25px;
+}
+
+.dots {
+  align-self: flex-end;
+  width: 30px;
+}
+
+#resume {
+  margin: 0 15px;
+  width: 20px;
+}
+
+#info {
+  margin: 0 5px;
+  width: 20px;
+}
+
+#profile-pic {
+  height: 100%;
+  margin: 0 0;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (max-width: 915px){
   .box-container {
-    width: 50%;
     overflow: scroll;
+    width: 50%;
   }
 
   article {
@@ -149,14 +157,16 @@ img:hover {
   }
 
   .box-container {
-    width: 100%;
     overflow: scroll;
+    width: 100%;
   }
 
   .main-image {
-    width: 100%;
     height: 150%;
+    justify-content: space-around;
     position: relative;
+    padding: 0px 20px;
+    width: 100%;
   }
 
   article {
@@ -179,9 +189,9 @@ img:hover {
     }
 
     .info {
+      align-items: flex-start;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       height: 325px;
     }
 
