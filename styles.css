@@ -162,6 +162,7 @@ img:hover {
   }
 
   .main-image {
+    background-position-y: -140px;
     height: 150%;
     justify-content: space-around;
     position: relative;
@@ -180,6 +181,7 @@ img:hover {
 
 @media screen and (max-width: 400px) {
   .main-image {
+    background-position-x: -50px;
     height: 200%;
     }
 
