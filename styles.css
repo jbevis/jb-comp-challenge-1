@@ -56,7 +56,7 @@ img:hover {
 }
 
 .info {
-  background-color: #35BC7A;
+  background-color: #4471A3;
   display: inline-block;
   width: 66.66%;
 }
@@ -73,31 +73,31 @@ img:hover {
 }
 
 .profile-box {
-  background-color: #FF9E00;
+  background-color: #333438;
 }
 
 .experience-box {
-  background-color: #1E8BC4;
+  background-color: #35C9C2;
 }
 
 .education-box {
-  background-color: #F15A49;
+  background-color: #6A6B6D;
 }
 
 .blog-box{
-  background-color: #35BC7A;
+  background-color: #4471A3;
 }
 
 .social-box {
-  background-color: #F86925;
+  background-color: #EC4B06;
 }
 
 .contact-box {
-  background-color: #1E8BC4;
+  background-color: #35C9C2;
 }
 
 .portfolio-box {
-  background-color: #F86925;
+  background-color: #EC4B06;
 }
 
 .arrows {
@@ -152,7 +152,7 @@ img:hover {
 
 @media screen and (max-width: 750px){
   body {
-    background-color: #1E8BC4;
+    background-color: #35C9C2;
     flex-direction: column;
   }
 
