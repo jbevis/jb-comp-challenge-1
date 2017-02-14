@@ -56,7 +56,7 @@ img:hover {
 }
 
 .info {
-  background-color: #4471A3;
+  background-color: #3E69B4;
   display: inline-block;
   width: 66.66%;
 }
@@ -73,31 +73,31 @@ img:hover {
 }
 
 .profile-box {
-  background-color: #333438;
+  background-color: #4E4944;
 }
 
 .experience-box {
-  background-color: #35C9C2;
+  background-color: #537050;
 }
 
 .education-box {
-  background-color: #6A6B6D;
+  background-color: #931621;
 }
 
 .blog-box{
-  background-color: #4471A3;
+  background-color: #3E69B4;
 }
 
 .social-box {
-  background-color: #EC4B06;
+  background-color: #FA8334;
 }
 
 .contact-box {
-  background-color: #35C9C2;
+  background-color: #537050;
 }
 
 .portfolio-box {
-  background-color: #EC4B06;
+  background-color: #FA8334;
 }
 
 .arrows {
@@ -170,6 +170,10 @@ img:hover {
     width: 100%;
   }
 
+  .arrows {
+    align-self: baseline;
+  }
+
   article {
     width: 50%%;
   }
@@ -183,6 +187,7 @@ img:hover {
   .main-image {
     background-position-x: -50px;
     height: 200%;
+    padding: 0px;
     }
 
     a {
